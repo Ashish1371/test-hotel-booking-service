@@ -1,0 +1,342 @@
+2022-11-28 11:14:25 INFO  createBooking:38 - test logging
+2022-11-28 11:14:25 INFO  createBooking:38 - test logging
+2022-11-28 11:14:25 INFO  createBooking:38 - test logging
+2022-11-28 11:14:25 INFO  createBooking:38 - test logging
+2022-11-28 11:14:25 INFO  createBooking:38 - test logging
+2022-11-28 11:14:46 INFO  createBooking:38 - test logging
+2022-11-28 11:14:46 INFO  createBooking:38 - test logging
+2022-11-28 11:14:46 INFO  createBooking:38 - test logging
+2022-11-28 11:14:46 INFO  createBooking:38 - test logging
+2022-11-28 11:14:46 INFO  createBooking:38 - test logging
+2022-11-28 11:15:07 INFO  createBooking:38 - test logging
+2022-11-28 11:15:07 INFO  createBooking:38 - test logging
+2022-11-28 11:15:07 INFO  createBooking:38 - test logging
+2022-11-28 11:15:07 INFO  createBooking:38 - test logging
+2022-11-28 11:15:07 INFO  createBooking:38 - test logging
+2022-11-28 11:15:59 INFO  createBooking:38 - test logging
+2022-11-28 11:15:59 INFO  createBooking:38 - test logging
+2022-11-28 11:15:59 INFO  createBooking:38 - test logging
+2022-11-28 11:15:59 INFO  createBooking:38 - test logging
+2022-11-28 11:15:59 INFO  createBooking:38 - test logging
+2022-11-28 11:21:14 INFO  createBooking:38 - test logging
+2022-11-28 11:21:14 INFO  createBooking:38 - test logging
+2022-11-28 11:21:14 INFO  createBooking:38 - test logging
+2022-11-28 11:21:14 INFO  createBooking:38 - test logging
+2022-11-28 11:21:14 INFO  createBooking:38 - test logging
+2022-11-28 11:25:48 INFO  createBooking:38 - test logging
+2022-11-28 11:25:48 INFO  createBooking:38 - test logging
+2022-11-28 11:25:48 INFO  createBooking:38 - test logging
+2022-11-28 11:25:48 INFO  createBooking:38 - test logging
+2022-11-28 11:25:48 INFO  createBooking:38 - test logging
+2022-11-28 11:26:30 INFO  createBooking:38 - test logging
+2022-11-28 11:26:30 INFO  createBooking:38 - test logging
+2022-11-28 11:26:30 INFO  createBooking:38 - test logging
+2022-11-28 11:26:30 INFO  createBooking:38 - test logging
+2022-11-28 11:26:30 INFO  createBooking:38 - test logging
+2022-11-28 11:26:41 INFO  createBooking:38 - test logging
+2022-11-28 11:26:41 INFO  createBooking:38 - test logging
+2022-11-28 11:26:41 INFO  createBooking:38 - test logging
+2022-11-28 11:26:41 INFO  createBooking:38 - test logging
+2022-11-28 11:26:41 INFO  createBooking:38 - test logging
+2022-11-28 11:26:52 INFO  createBooking:38 - test logging
+2022-11-28 11:26:52 INFO  createBooking:38 - test logging
+2022-11-28 11:26:52 INFO  createBooking:38 - test logging
+2022-11-28 11:26:52 INFO  createBooking:38 - test logging
+2022-11-28 11:26:52 INFO  createBooking:38 - test logging
+2022-11-28 11:27:26 INFO  createBooking:38 - test logging
+2022-11-28 11:27:26 INFO  createBooking:38 - test logging
+2022-11-28 11:27:26 INFO  createBooking:38 - test logging
+2022-11-28 11:27:26 INFO  createBooking:38 - test logging
+2022-11-28 11:27:26 INFO  createBooking:38 - test logging
+2022-11-28 11:27:42 INFO  createBooking:38 - test logging
+2022-11-28 11:27:42 INFO  createBooking:38 - test logging
+2022-11-28 11:27:42 INFO  createBooking:38 - test logging
+2022-11-28 11:27:42 INFO  createBooking:38 - test logging
+2022-11-28 11:27:42 INFO  createBooking:38 - test logging
+2022-11-28 11:27:52 INFO  createBooking:38 - test logging
+2022-11-28 11:27:52 INFO  createBooking:38 - test logging
+2022-11-28 11:27:52 INFO  createBooking:38 - test logging
+2022-11-28 11:27:52 INFO  createBooking:38 - test logging
+2022-11-28 11:27:52 INFO  createBooking:38 - test logging
+2022-11-28 11:28:48 INFO  createBooking:38 - test logging
+2022-11-28 11:28:48 INFO  createBooking:38 - test logging
+2022-11-28 11:28:48 INFO  createBooking:38 - test logging
+2022-11-28 11:28:48 INFO  createBooking:38 - test logging
+2022-11-28 11:28:48 INFO  createBooking:38 - test logging
+2022-11-28 11:29:00 INFO  createBooking:38 - test logging
+2022-11-28 11:29:00 INFO  createBooking:38 - test logging
+2022-11-28 11:29:00 INFO  createBooking:38 - test logging
+2022-11-28 11:29:00 INFO  createBooking:38 - test logging
+2022-11-28 11:29:00 INFO  createBooking:38 - test logging
+2022-11-28 12:23:51 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:23:56 INFO  createBooking:61 - Health check successful
+2022-11-28 12:23:56 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:23:56 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 12:23:58 INFO  createBooking:56 - Response json body{"bookingid":26683,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:23:59 INFO  createBooking:61 - Set booking id26683
+2022-11-28 12:23:59 INFO  createBooking:79 - Response code200
+2022-11-28 12:23:59 INFO  createBooking:46 - Request json body{firstname=Jimupdated, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=100, lastname=Brownupdated}
+2022-11-28 12:23:59 INFO  createBooking:49 - Path params{id=26683}
+2022-11-28 12:24:01 INFO  createBooking:56 - Cookie{token=aab554a2e7e7513}
+2022-11-28 12:24:03 INFO  createBooking:58 - Response body{"firstname":"Jimupdated","lastname":"Brownupdated","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 12:24:03 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:07 INFO  createBooking:126 - Delete booking id26683
+2022-11-28 12:24:07 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:07 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:24:09 INFO  createBooking:61 - Health check successful
+2022-11-28 12:24:09 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:24:09 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 12:24:11 INFO  createBooking:56 - Response json body{"bookingid":26687,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:24:12 INFO  createBooking:61 - Set booking id26687
+2022-11-28 12:24:12 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:12 INFO  createBooking:47 - Json body set as{firstname=Jimaaaaa, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=100, depositpaid=true, lastname=Brownaaa}
+2022-11-28 12:24:12 INFO  createBooking:50 - Path parameter set as{id=26687}
+2022-11-28 12:24:14 INFO  createBooking:56 - Authorization Token generated01919aab6f7541a
+2022-11-28 12:24:16 INFO  createBooking:59 - Response{"firstname":"Jimaaaaa","lastname":"Brownaaa","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 12:24:16 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:20 INFO  createBooking:126 - Delete booking id26687
+2022-11-28 12:24:20 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:20 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:24:22 INFO  createBooking:61 - Health check successful
+2022-11-28 12:24:22 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:24:22 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 12:24:24 INFO  createBooking:56 - Response json body{"bookingid":26689,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:24:24 INFO  createBooking:61 - Set booking id26689
+2022-11-28 12:24:24 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:24 INFO  createBooking:105 - ExpectedJim
+2022-11-28 12:24:24 INFO  createBooking:106 - ActualJim
+2022-11-28 12:24:24 INFO  createBooking:105 - ExpectedBrown
+2022-11-28 12:24:24 INFO  createBooking:106 - ActualBrown
+2022-11-28 12:24:24 INFO  createBooking:105 - Expected111
+2022-11-28 12:24:24 INFO  createBooking:106 - Actual111
+2022-11-28 12:24:24 INFO  createBooking:105 - Expectedtrue
+2022-11-28 12:24:24 INFO  createBooking:106 - Actualtrue
+2022-11-28 12:24:25 INFO  createBooking:105 - ExpectedBreakfast
+2022-11-28 12:24:25 INFO  createBooking:106 - ActualBreakfast
+2022-11-28 12:24:29 INFO  createBooking:126 - Delete booking id26689
+2022-11-28 12:24:29 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:29 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:24:31 INFO  createBooking:61 - Health check successful
+2022-11-28 12:24:31 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:24:31 INFO  createBooking:82 - Request json body{firstname=Jim20221128122431, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128122431}
+2022-11-28 12:24:33 INFO  createBooking:84 - Response json body{"bookingid":26691,"booking":{"firstname":"Jim20221128122431","lastname":"Brown20221128122431","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:24:33 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:37 INFO  createBooking:126 - Delete booking id26691
+2022-11-28 12:24:37 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:38 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:24:40 INFO  createBooking:61 - Health check successful
+2022-11-28 12:24:40 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:24:40 INFO  createBooking:82 - Request json body{firstname=Jim20221128122440, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128122440}
+2022-11-28 12:24:42 INFO  createBooking:84 - Response json body{"bookingid":26692,"booking":{"firstname":"Jim20221128122440","lastname":"Brown20221128122440","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:24:42 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:46 INFO  createBooking:126 - Delete booking id26692
+2022-11-28 12:24:46 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:46 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:24:48 INFO  createBooking:61 - Health check successful
+2022-11-28 12:24:48 INFO  createBooking:72 - Headers set as{Content-Type=application/json}
+2022-11-28 12:24:48 INFO  createBooking:82 - Request json body{firstname=Jim20221128122448, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128122448}
+2022-11-28 12:24:50 INFO  createBooking:84 - Response json body{"bookingid":26693,"booking":{"firstname":"Jim20221128122448","lastname":"Brown20221128122448","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:24:50 INFO  createBooking:79 - Response code200
+2022-11-28 12:24:54 INFO  createBooking:126 - Delete booking id26693
+2022-11-28 12:24:54 INFO  createBooking:79 - Response code201
+2022-11-28 12:24:59 INFO  createBooking:126 - Delete booking id26693
+2022-11-28 12:24:59 INFO  createBooking:79 - Response code405
+2022-11-28 12:24:59 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:25:01 INFO  createBooking:61 - Health check successful
+2022-11-28 12:25:01 INFO  createBooking:72 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 12:25:01 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 12:25:03 INFO  createBooking:56 - Response json body{"bookingid":26694,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:25:03 INFO  createBooking:61 - Set booking id26694
+2022-11-28 12:25:03 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:03 INFO  createBooking:37 - Pathparams set as {id=26694}
+2022-11-28 12:25:05 INFO  createBooking:39 - Response body getbooking id{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 12:25:05 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:05 INFO  createBooking:53 - Expectedfirstname
+2022-11-28 12:25:05 INFO  createBooking:54 - ActualJim
+2022-11-28 12:25:05 INFO  createBooking:53 - Expectedlastname
+2022-11-28 12:25:05 INFO  createBooking:54 - ActualBrown
+2022-11-28 12:25:05 INFO  createBooking:53 - Expectedtotalprice
+2022-11-28 12:25:05 INFO  createBooking:54 - Actual111
+2022-11-28 12:25:05 INFO  createBooking:53 - Expecteddepositpaid
+2022-11-28 12:25:05 INFO  createBooking:54 - Actualtrue
+2022-11-28 12:25:05 INFO  createBooking:53 - Expectedadditionalneeds
+2022-11-28 12:25:05 INFO  createBooking:54 - ActualBreakfast
+2022-11-28 12:25:09 INFO  createBooking:126 - Delete booking id26694
+2022-11-28 12:25:09 INFO  createBooking:79 - Response code201
+2022-11-28 12:25:09 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:25:11 INFO  createBooking:61 - Health check successful
+2022-11-28 12:25:14 INFO  createBooking:56 - Responseio.restassured.internal.RestAssuredResponseImpl@b34c7c9
+2022-11-28 12:25:14 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:14 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:25:16 INFO  createBooking:61 - Health check successful
+2022-11-28 12:25:16 INFO  createBooking:72 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 12:25:16 INFO  createBooking:54 - Request json body{firstname=testuser, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=sur}
+2022-11-28 12:25:18 INFO  createBooking:56 - Response json body{"bookingid":26697,"booking":{"firstname":"testuser","lastname":"sur","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:25:19 INFO  createBooking:61 - Set booking id26697
+2022-11-28 12:25:19 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:19 INFO  createBooking:36 - queryParams{firstname=testuser, lastname=sur}
+2022-11-28 12:25:22 INFO  createBooking:40 - Response of get booking with filter[{"bookingid":15335},{"bookingid":15418},{"bookingid":15271},{"bookingid":15590},{"bookingid":26697},{"bookingid":15341},{"bookingid":15050},{"bookingid":15599},{"bookingid":15402},{"bookingid":15521},{"bookingid":15397},{"bookingid":15569},{"bookingid":15721},{"bookingid":15349},{"bookingid":15611},{"bookingid":15710},{"bookingid":15287},{"bookingid":18951},{"bookingid":19263},{"bookingid":15763},{"bookingid":15699},{"bookingid":15509},{"bookingid":18977},{"bookingid":15512},{"bookingid":15531},{"bookingid":18782}]
+2022-11-28 12:25:22 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:27 INFO  createBooking:126 - Delete booking id26697
+2022-11-28 12:25:27 INFO  createBooking:79 - Response code201
+2022-11-28 12:25:27 INFO  createBooking:36 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:25:29 INFO  createBooking:61 - Health check successful
+2022-11-28 12:25:29 INFO  createBooking:72 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 12:25:29 INFO  createBooking:54 - Request json body{firstname=testuser1, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=sur1}
+2022-11-28 12:25:33 INFO  createBooking:56 - Response json body{"bookingid":26701,"booking":{"firstname":"testuser1","lastname":"sur1","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 12:25:33 INFO  createBooking:61 - Set booking id26701
+2022-11-28 12:25:33 INFO  createBooking:79 - Response code200
+2022-11-28 12:25:33 INFO  createBooking:36 - queryParams{checkin=2021-07-01, checkout=2021-07-02}
+2022-11-28 12:25:35 INFO  createBooking:40 - Response of get booking with filter[{"bookingid":22643},{"bookingid":25278},{"bookingid":25280},{"bookingid":18719},{"bookingid":24182},{"bookingid":25281},{"bookingid":15153},{"bookingid":15217},{"bookingid":22762},{"bookingid":25279},{"bookingid":24189},{"bookingid":529},{"bookingid":25318},{"bookingid":25312},{"bookingid":15213},{"bookingid":15218},{"bookingid":24121},{"bookingid":24113},{"bookingid":536},{"bookingid":25314},{"bookingid":509},{"bookingid":521},{"bookingid":24106},{"bookingid":19495},{"bookingid":25032},{"bookingid":25313},{"bookingid":22657},{"bookingid":24111},{"bookingid":24785},{"bookingid":25317},{"bookingid":24430},{"bookingid":25276},{"bookingid":24174}]
+2022-11-28 12:25:35 INFO  createBooking:79 - Response code200
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 12:37:49 INFO  createBooking:37 - Env variable set as qa.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:33:09 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:15 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:15 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:15 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:15 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:15 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:50 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:34:55 INFO  createBooking:66 - Health check successful
+2022-11-28 13:34:55 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:34:55 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 13:34:56 INFO  createBooking:56 - Response json body{"bookingid":27746,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:34:57 INFO  createBooking:61 - Set booking id27746
+2022-11-28 13:34:57 INFO  createBooking:85 - Response code200
+2022-11-28 13:34:57 INFO  createBooking:46 - Request json body{firstname=Jimupdated, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=100, lastname=Brownupdated}
+2022-11-28 13:34:57 INFO  createBooking:49 - Path params{id=27746}
+2022-11-28 13:34:59 INFO  createBooking:56 - Cookie{token=3c34c95db9bdb4b}
+2022-11-28 13:35:01 INFO  createBooking:58 - Response body{"firstname":"Jimupdated","lastname":"Brownupdated","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 13:35:01 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:05 INFO  createBooking:126 - Delete booking id27746
+2022-11-28 13:35:05 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:05 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:06 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:06 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:35:06 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 13:35:08 INFO  createBooking:56 - Response json body{"bookingid":27749,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:08 INFO  createBooking:61 - Set booking id27749
+2022-11-28 13:35:08 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:08 INFO  createBooking:47 - Json body set as{firstname=Jimaaaaa, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=100, depositpaid=true, lastname=Brownaaa}
+2022-11-28 13:35:08 INFO  createBooking:50 - Path parameter set as{id=27749}
+2022-11-28 13:35:10 INFO  createBooking:56 - Authorization Token generated8fec4873f17af75
+2022-11-28 13:35:12 INFO  createBooking:59 - Response{"firstname":"Jimaaaaa","lastname":"Brownaaa","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 13:35:12 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:16 INFO  createBooking:126 - Delete booking id27749
+2022-11-28 13:35:16 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:16 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:17 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:17 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:35:17 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 13:35:19 INFO  createBooking:56 - Response json body{"bookingid":27751,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:19 INFO  createBooking:61 - Set booking id27751
+2022-11-28 13:35:19 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:19 INFO  createBooking:105 - ExpectedJim
+2022-11-28 13:35:19 INFO  createBooking:106 - ActualJim
+2022-11-28 13:35:19 INFO  createBooking:105 - ExpectedBrown
+2022-11-28 13:35:19 INFO  createBooking:106 - ActualBrown
+2022-11-28 13:35:20 INFO  createBooking:105 - Expected111
+2022-11-28 13:35:20 INFO  createBooking:106 - Actual111
+2022-11-28 13:35:20 INFO  createBooking:105 - Expectedtrue
+2022-11-28 13:35:20 INFO  createBooking:106 - Actualtrue
+2022-11-28 13:35:20 INFO  createBooking:105 - ExpectedBreakfast
+2022-11-28 13:35:20 INFO  createBooking:106 - ActualBreakfast
+2022-11-28 13:35:23 INFO  createBooking:126 - Delete booking id27751
+2022-11-28 13:35:23 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:23 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:25 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:25 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:35:25 INFO  createBooking:82 - Request json body{firstname=Jim20221128133525, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128133525}
+2022-11-28 13:35:27 INFO  createBooking:84 - Response json body{"bookingid":27753,"booking":{"firstname":"Jim20221128133525","lastname":"Brown20221128133525","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:27 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:31 INFO  createBooking:126 - Delete booking id27753
+2022-11-28 13:35:31 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:31 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:33 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:33 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:35:33 INFO  createBooking:82 - Request json body{firstname=Jim20221128133533, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128133533}
+2022-11-28 13:35:35 INFO  createBooking:84 - Response json body{"bookingid":27755,"booking":{"firstname":"Jim20221128133533","lastname":"Brown20221128133533","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:35 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:39 INFO  createBooking:126 - Delete booking id27755
+2022-11-28 13:35:39 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:39 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:40 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:40 INFO  createBooking:78 - Headers set as{Content-Type=application/json}
+2022-11-28 13:35:40 INFO  createBooking:82 - Request json body{firstname=Jim20221128133540, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=false, lastname=Brown20221128133540}
+2022-11-28 13:35:42 INFO  createBooking:84 - Response json body{"bookingid":27756,"booking":{"firstname":"Jim20221128133540","lastname":"Brown20221128133540","totalprice":111,"depositpaid":false,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:42 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:46 INFO  createBooking:126 - Delete booking id27756
+2022-11-28 13:35:46 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:49 INFO  createBooking:126 - Delete booking id27756
+2022-11-28 13:35:49 INFO  createBooking:85 - Response code405
+2022-11-28 13:35:49 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:35:51 INFO  createBooking:66 - Health check successful
+2022-11-28 13:35:51 INFO  createBooking:78 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 13:35:51 INFO  createBooking:54 - Request json body{firstname=Jim, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=Brown}
+2022-11-28 13:35:53 INFO  createBooking:56 - Response json body{"bookingid":27758,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:35:53 INFO  createBooking:61 - Set booking id27758
+2022-11-28 13:35:53 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:53 INFO  createBooking:37 - Pathparams set as {id=27758}
+2022-11-28 13:35:55 INFO  createBooking:39 - Response body getbooking id{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}
+2022-11-28 13:35:55 INFO  createBooking:85 - Response code200
+2022-11-28 13:35:55 INFO  createBooking:53 - Expectedfirstname
+2022-11-28 13:35:55 INFO  createBooking:54 - ActualJim
+2022-11-28 13:35:55 INFO  createBooking:53 - Expectedlastname
+2022-11-28 13:35:55 INFO  createBooking:54 - ActualBrown
+2022-11-28 13:35:55 INFO  createBooking:53 - Expectedtotalprice
+2022-11-28 13:35:55 INFO  createBooking:54 - Actual111
+2022-11-28 13:35:55 INFO  createBooking:53 - Expecteddepositpaid
+2022-11-28 13:35:55 INFO  createBooking:54 - Actualtrue
+2022-11-28 13:35:55 INFO  createBooking:53 - Expectedadditionalneeds
+2022-11-28 13:35:55 INFO  createBooking:54 - ActualBreakfast
+2022-11-28 13:35:59 INFO  createBooking:126 - Delete booking id27758
+2022-11-28 13:35:59 INFO  createBooking:85 - Response code201
+2022-11-28 13:35:59 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:36:01 INFO  createBooking:66 - Health check successful
+2022-11-28 13:36:05 INFO  createBooking:56 - Responseio.restassured.internal.RestAssuredResponseImpl@192f5f39
+2022-11-28 13:36:05 INFO  createBooking:85 - Response code200
+2022-11-28 13:36:05 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:36:07 INFO  createBooking:66 - Health check successful
+2022-11-28 13:36:07 INFO  createBooking:78 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 13:36:07 INFO  createBooking:54 - Request json body{firstname=testuser, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=sur}
+2022-11-28 13:36:08 INFO  createBooking:56 - Response json body{"bookingid":27763,"booking":{"firstname":"testuser","lastname":"sur","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:36:09 INFO  createBooking:61 - Set booking id27763
+2022-11-28 13:36:09 INFO  createBooking:85 - Response code200
+2022-11-28 13:36:09 INFO  createBooking:36 - queryParams{firstname=testuser, lastname=sur}
+2022-11-28 13:36:10 INFO  createBooking:40 - Response of get booking with filter[{"bookingid":15335},{"bookingid":15418},{"bookingid":15271},{"bookingid":15590},{"bookingid":15341},{"bookingid":15050},{"bookingid":15599},{"bookingid":27763},{"bookingid":15402},{"bookingid":15521},{"bookingid":15397},{"bookingid":15569},{"bookingid":15721},{"bookingid":15349},{"bookingid":15611},{"bookingid":15710},{"bookingid":15287},{"bookingid":18951},{"bookingid":19263},{"bookingid":15763},{"bookingid":15699},{"bookingid":15509},{"bookingid":18977},{"bookingid":15512},{"bookingid":15531},{"bookingid":18782}]
+2022-11-28 13:36:10 INFO  createBooking:85 - Response code200
+2022-11-28 13:36:14 INFO  createBooking:126 - Delete booking id27763
+2022-11-28 13:36:14 INFO  createBooking:85 - Response code201
+2022-11-28 13:36:14 INFO  createBooking:56 - Env variable not set.Set url to https://restful-booker.herokuapp.com/
+2022-11-28 13:36:15 INFO  createBooking:66 - Health check successful
+2022-11-28 13:36:15 INFO  createBooking:78 - Headers set as{Accept=application/json, Content-Type=application/json}
+2022-11-28 13:36:15 INFO  createBooking:54 - Request json body{firstname=testuser1, additionalneeds=Breakfast, bookingdates={checkin=2021-07-01, checkout=2021-07-02}, totalprice=111, depositpaid=true, lastname=sur1}
+2022-11-28 13:36:17 INFO  createBooking:56 - Response json body{"bookingid":27764,"booking":{"firstname":"testuser1","lastname":"sur1","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2021-07-01","checkout":"2021-07-02"},"additionalneeds":"Breakfast"}}
+2022-11-28 13:36:17 INFO  createBooking:61 - Set booking id27764
+2022-11-28 13:36:17 INFO  createBooking:85 - Response code200
+2022-11-28 13:36:17 INFO  createBooking:36 - queryParams{checkin=2021-07-01, checkout=2021-07-02}
+2022-11-28 13:36:19 INFO  createBooking:40 - Response of get booking with filter[{"bookingid":22643},{"bookingid":25278},{"bookingid":25280},{"bookingid":18719},{"bookingid":24182},{"bookingid":25281},{"bookingid":15153},{"bookingid":15217},{"bookingid":22762},{"bookingid":25279},{"bookingid":24189},{"bookingid":529},{"bookingid":25318},{"bookingid":25312},{"bookingid":15213},{"bookingid":15218},{"bookingid":24121},{"bookingid":24113},{"bookingid":536},{"bookingid":25314},{"bookingid":509},{"bookingid":521},{"bookingid":24106},{"bookingid":19495},{"bookingid":25032},{"bookingid":25313},{"bookingid":22657},{"bookingid":24111},{"bookingid":24785},{"bookingid":25317},{"bookingid":24430},{"bookingid":25276},{"bookingid":24174}]
+2022-11-28 13:36:19 INFO  createBooking:85 - Response code200

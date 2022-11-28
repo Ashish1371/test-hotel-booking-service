@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 90.322 sec <<< FAILURE!
+Test to verify get bookings filter by checkin checkout(Get bookings)  Time elapsed: 5.338 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinations.getBookings.validate_booking_id_is_present_in_response(getBookings.java:48)
+	at ?.validate booking id is present in response(file:///C:/Users/Lenovo/eclipse-workspace/test-hotel-booking/src/test/resources/features/API_tests/getBookings.feature:60)
+
