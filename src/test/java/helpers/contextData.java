@@ -18,7 +18,6 @@ public class contextData {
 		contextData.bookingid = bookingid;
 	}
 
-	//static String url = "https://restful-booker.herokuapp.com";
 	static String url;
 	static Map<String, String> header = new HashMap<String, String>();
 

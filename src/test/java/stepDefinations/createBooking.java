@@ -52,6 +52,7 @@ public class createBooking {
 		jsonBodyUsingMap.put("bookingdates", bookingDatesMap);
 
 		logger.info("Request json body" + jsonBodyUsingMap);
+
 		booking.createBooking(jsonBodyUsingMap);
 		logger.info("Response json body" + contextData.getResponse().asString());
 
@@ -96,9 +97,6 @@ public class createBooking {
 		JsonPath jsnPath = responseBody.jsonPath();
 		List<Map<String, String>> data = dataTable.asMaps();
 		for (Map<String, String> body : data) {
-
-			System.out.println(body.get("Key") + body.get("value"));
-			System.out.println(jsnPath.get("booking.firstname"));
 
 			String path = "booking." + body.get("Key");
 			System.out.println(path);

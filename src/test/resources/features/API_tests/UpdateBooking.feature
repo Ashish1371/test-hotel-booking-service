@@ -24,6 +24,13 @@ Feature: update Booking API
     | depositpaid     | true             |
     | additionalneeds | Breakfast        |
     Then validate response code is 200
+    And validate json response for getbookingId API
+    |     Key         | value            |
+    | firstname       | Jimaaaaa         |
+    | lastname        | Brownaaa         |
+    | totalprice      | 100              |
+    | depositpaid     | true             |
+    | additionalneeds | Breakfast        |
     Then delete the bookingid
     Then validate response code is 201
     

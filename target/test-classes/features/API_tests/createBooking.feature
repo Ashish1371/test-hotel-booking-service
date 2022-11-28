@@ -39,8 +39,7 @@ Feature: Create Booking API
     Then validate response code is 200
     Then delete the bookingid
    Then validate response code is 201
-    
-    
-
-
- 
+   
+   
+   
+   
