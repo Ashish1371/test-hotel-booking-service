@@ -68,7 +68,7 @@ public class rest_client {
 		case rest_client.GET_REQUEST:
 			logger.info("Calling GET API");
 
-			contextData.setResponse(given().spec(reqSpec).when().get(basepath));
+			contextData.setResponse(given().relaxedHTTPSValidation().spec(reqSpec).when().get(basepath));
 			logger.info(contextData.getResponse().asString());
 
 			break;
@@ -76,12 +76,12 @@ public class rest_client {
 		case rest_client.POST_REQUEST:
 
 			logger.info("Calling post API");
-			contextData.setResponse(given().spec(reqSpec).when().body(gson.toJson(body)).post(basepath));
+			contextData.setResponse(given().relaxedHTTPSValidation().spec(reqSpec).when().body(gson.toJson(body)).post(basepath));
 			//logger.info(contextData.getResponse().asString());
 			break;
 
 		case rest_client.DELETE_REQUEST:
-			contextData.setResponse(given().spec(reqSpec).when().delete(basepath));
+			contextData.setResponse(given().relaxedHTTPSValidation().spec(reqSpec).when().delete(basepath));
 			logger.info("DeleteData response code" + contextData.getResponse().statusCode());
 
 			break;
@@ -89,14 +89,14 @@ public class rest_client {
 		case rest_client.PUT_REQUEST:
 			logger.info("Calling PUT API");
 
-			contextData.setResponse(given().spec(reqSpec).when().body(gson.toJson(body)).put(basepath));
+			contextData.setResponse(given().relaxedHTTPSValidation().spec(reqSpec).when().body(gson.toJson(body)).put(basepath));
 			logger.info("updated data" + contextData.getResponse().asString());
 			break;
 
 		case rest_client.PATCH_REQUEST:
 
 			logger.info("Calling PATCH API");
-			contextData.setResponse(given().spec(reqSpec).when().body(gson.toJson(body)).patch(basepath));
+			contextData.setResponse(given().relaxedHTTPSValidation().spec(reqSpec).when().body(gson.toJson(body)).patch(basepath));
 			logger.info("updated data" + contextData.getResponse().asString());
 			break;
 
