@@ -3,7 +3,9 @@
   <groupId>com.hotel.booking</groupId>
   <artifactId>test-hotel-booking</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
   
    <dependencies>
    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
