@@ -5,7 +5,6 @@ import org.junit.Before;
 import org.junit.runner.RunWith;
 
 import helpers.contextData;
-import io.cucumber.*;
 import io.cucumber.junit.*;
 
 @RunWith(Cucumber.class)
