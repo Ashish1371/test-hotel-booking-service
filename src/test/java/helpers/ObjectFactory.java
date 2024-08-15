@@ -1,22 +1,22 @@
 package helpers;
 
 import services.Authorizations;
-import services.booking_service;
-import services.healthcheck;
+import services.BookingService;
+import services.HealthCheck;
 
 public class ObjectFactory {
 	
-	static booking_service booking =new booking_service();
+	static BookingService booking =new BookingService();
 	static Authorizations auth =new Authorizations();
-	static healthcheck check=new healthcheck();
+	static HealthCheck check=new HealthCheck();
 	
-public static booking_service getBookingServiceObject() {
+public static BookingService getBookingServiceObject() {
 	return booking;
 }
 public static Authorizations getAuthorizationObject() {
 	return auth;
 	}
-public static healthcheck gethealthcheckobject() {
+public static HealthCheck gethealthcheckobject() {
 	return check;
 	}	
 	

@@ -2,21 +2,16 @@ package services;
 
 import java.util.Map;
 
-import helpers.contextData;
-import helpers.rest_client;
+import helpers.ContextData;
 
-public class Authorizations extends rest_client {
+import static helpers.RestClient.sendRequest;
 
-	public Authorizations() {
-		super(contextData.getUrl());
+public class Authorizations {
 
-	}
+    public void createAuthToken(Map<String, Object> body) {
+        System.out.println("Header value is set as" + ContextData.getHeader());
 
-	public void createAuthToken(Map<String, Object> body) {
-		System.out.println("Header value is set as" + contextData.getHeader());
-
-		super.sendRequest(1, contextData.getHeader(), null, null, null, body, "/auth");
-
-	}
+        sendRequest(1, ContextData.getHeader(), null, null, null, body, "/auth");
+    }
 
 }

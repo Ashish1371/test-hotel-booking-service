@@ -8,19 +8,19 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 
 import helpers.ObjectFactory;
-import helpers.contextData;
+import helpers.ContextData;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.ResponseBody;
 import services.Authorizations;
-import services.booking_service;
+import services.BookingService;
 
-public class getBookingId {
+public class GetBookingId {
 
-	booking_service booking = ObjectFactory.getBookingServiceObject();
+	BookingService booking = ObjectFactory.getBookingServiceObject();
 	Authorizations auth = ObjectFactory.getAuthorizationObject();
-	private Logger logger = Logger.getLogger(createBooking.class);
+	private Logger logger = Logger.getLogger(CreateBooking.class);
 
 	@When("getbookingId API is called")
 	public void getbooking_id_api_is_called(io.cucumber.datatable.DataTable dataTable) {
@@ -28,15 +28,15 @@ public class getBookingId {
 		List<Map<String, String>> data = dataTable.asMaps();
 		for (Map<String, String> header : data) {
 
-			contextData.setHeader(header.get("key"), header.get("value"));
+			ContextData.setHeader(header.get("key"), header.get("value"));
 		}
 
-		ResponseBody responseBody = contextData.getResponse().getBody();
+		ResponseBody responseBody = ContextData.getResponse().getBody();
 		JsonPath jsnPath = responseBody.jsonPath();
 		pathparams.put("id", jsnPath.get("bookingid").toString());
 		logger.info("Pathparams set as " + pathparams);
 		booking.getBookingbyId(pathparams);
-		logger.info("Response body getbooking id" + contextData.getResponse().asString());
+		logger.info("Response body getbooking id" + ContextData.getResponse().asString());
 
 	}
 
@@ -44,7 +44,7 @@ public class getBookingId {
 	public void validate_json_response_for_getbooking_id_api(io.cucumber.datatable.DataTable dataTable) {
 
 		Map<String, Object> responsebody;
-		ResponseBody responseBody = contextData.getResponse().getBody();
+		ResponseBody responseBody = ContextData.getResponse().getBody();
 		JsonPath jsnPath = responseBody.jsonPath();
 		List<Map<String, String>> data = dataTable.asMaps();
 		for (Map<String, String> body : data) {

@@ -14,24 +14,23 @@ import services.BookingService;
 
 import static helpers.Utils.getJson;
 
-public class BookingUpdate {
+public class PartialBookingUpdate {
 
 	BookingService booking = ObjectFactory.getBookingServiceObject();
 	Authorizations auth = ObjectFactory.getAuthorizationObject();
 	private Logger logger = Logger.getLogger(CreateBooking.class);
 
 
-	@When("update booking API is called using input {string}")
-	public void create_booking_api_is_called(String input) throws Exception {
-
-		booking.updateBooking(getUpdatePayload(input), getPathParams(), getCookie());
-		logger.info("Response" + ContextData.getResponse().asString());
+	@When("partial update booking API is called using input {string}")
+	public void partial_update_booking_api_is_called_with_data(String input) throws Exception {
+		booking.partialupdateBooking(getUpdatePayload(input), getPathParams(), getCookie());
+		logger.info("Response json" + ContextData.getResponse().asString());
 	}
 	Map<String, Object> getUpdatePayload(String input) throws Exception {
 		Map<String, Object> payload = new HashMap<String, Object>();
 		payload = getJson(input);
-        return payload;
-    }
+		return payload;
+	}
 
 	Map<String, String> getCookie() throws Exception {
 		Map<String, Object> credentials = new HashMap<String, Object>();

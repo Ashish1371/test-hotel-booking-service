@@ -5,7 +5,7 @@ import java.util.Map;
 
 import io.restassured.response.Response;
 
-public class contextData {
+public class ContextData {
 
 	static Response response;
 	static String bookingid;
@@ -15,7 +15,7 @@ public class contextData {
 	}
 
 	public static void setBookingid(String bookingid) {
-		contextData.bookingid = bookingid;
+		ContextData.bookingid = bookingid;
 	}
 
 	static String url;
@@ -26,7 +26,7 @@ public class contextData {
 	}
 
 	public static void setHeader(String key, String value) {
-		contextData.header.put(key, value);
+		ContextData.header.put(key, value);
 	}
 
 	public static String getUrl() {
@@ -34,7 +34,7 @@ public class contextData {
 	}
 
 	public static void setUrl(String url) {
-		contextData.url = url;
+		ContextData.url = url;
 	}
 
 	public static Response getResponse() {
@@ -42,7 +42,7 @@ public class contextData {
 	}
 
 	public static void setResponse(Response response) {
-		contextData.response = response;
+		ContextData.response = response;
 	}
 
 }
