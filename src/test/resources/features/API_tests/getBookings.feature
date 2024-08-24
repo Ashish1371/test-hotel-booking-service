@@ -7,6 +7,7 @@ Feature: Get bookings
     Given Booking service is up and running  
     When get bookings API is called
     Then validate response code is 200
+    Then validate bookings API
 		
 		
 

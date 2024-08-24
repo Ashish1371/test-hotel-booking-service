@@ -24,7 +24,7 @@ public class BookingService {
 
 	}
 
-	public void deleteBookingbyId(Map<String, String> pathparam, Map<String, String> cookie, String token) {
+	public void deleteBookingbyId(Map<String, String> pathparam, Map<String, String> cookie) {
 		System.out.println("pathparam value is set as" + pathparam);
 
 		System.out.println("header value is set as" + ContextData.getHeader());

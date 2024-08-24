@@ -7,6 +7,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.ResponseBody;
 import jdk.jshell.execution.Util;
 import org.apache.http.client.utils.URIUtils;
+import pojo.response.Booking;
+import pojo.response.BookingResponse;
 import services.Authorizations;
 import services.BookingService;
 
@@ -40,13 +42,11 @@ public class CreateBooking {
         logger.info("Response json body" + ContextData.getResponse().asString());
         ResponseBody responseBody = ContextData.getResponse().getBody();
         JsonPath jsnPath = responseBody.jsonPath();
-       if(ContextData.getResponse().statusCode()==200) {
-           ContextData.setBookingid(jsnPath.get("bookingid").toString());
-           logger.info("Set booking id" + jsnPath.get("bookingid").toString());
-       }
-
+        if (ContextData.getResponse().statusCode() == 200) {
+            ContextData.setBookingid(jsnPath.get("bookingid").toString());
+            logger.info("Set booking id" + jsnPath.get("bookingid").toString());
+        }
     }
-
 
     @Then("validate json response")
     public void validate_json_response(io.cucumber.datatable.DataTable dataTable) {
@@ -63,29 +63,25 @@ public class CreateBooking {
             logger.info("Actual" + body.get("value"));
 
             Assert.assertEquals(jsnPath.get(path).toString(), body.get("value"));
-
         }
+    }
+
+
+    @Then("validate response body for {string}")
+    public void validate_response_body(String input) throws Exception {
+        System.out.println("response data" + ContextData.getResponse().getBody().asString());
+        BookingResponse booking = ContextData.getResponse().getBody().as(BookingResponse.class);
+        logger.info("Deserialize data" + booking.getBooking().getFirstname());
+        Map<String, Object> payload = new HashMap<String, Object>();
+        payload = getJson(input);
+        Assert.assertEquals(payload.get("firstname"), booking.getBooking().getFirstname());
+        Assert.assertEquals(payload.get("lastname"), booking.getBooking().getLastname());
+        Assert.assertEquals(payload.get("additionalneeds"), booking.getBooking().getAdditionalneeds());
+        Assert.assertEquals(payload.get("totalprice"), booking.getBooking().getTotalprice());
+        Assert.assertEquals(payload.get("bookingdates").toString().split("=")[1].split(",")[0], booking.getBooking().getBookingdates().getCheckin());
+        Assert.assertEquals(payload.get("bookingdates").toString().split("=")[2].split("}")[0], booking.getBooking().getBookingdates().getCheckout());
 
     }
 
-    @Then("delete the bookingid")
-    public void delete_the_bookingid() {
-        Map<String, Object> jsonBodyUsingMap = new HashMap<String, Object>();
-        Map<String, String> pathparams = new HashMap<String, String>();
-        Map<String, String> cookie = new HashMap<String, String>();
-        jsonBodyUsingMap.put("username", "admin");
-        jsonBodyUsingMap.put("password", "password123");
-        auth.createAuthToken(jsonBodyUsingMap);
-        pathparams.put("id", ContextData.getBookingid().toString());
-        String token = ContextData.getResponse().getBody().jsonPath().get("token");
-        cookie.put("token", token);
-        booking.deleteBookingbyId(pathparams, cookie, token);
-        logger.info("Delete booking id" + ContextData.getBookingid().toString());
-
-    }
-
-    void updateJsonPayload(List<Map<String, String>> data) throws Exception {
-
-    }
 
 }

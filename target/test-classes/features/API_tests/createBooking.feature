@@ -16,6 +16,7 @@ Feature: Create Booking API
     | totalprice      | 111              |
     | depositpaid     | true             |
     | additionalneeds | Breakfast        |
+   Then validate response body for "<input>"
    Then delete the bookingid
    Then validate response code is 201
     Examples:

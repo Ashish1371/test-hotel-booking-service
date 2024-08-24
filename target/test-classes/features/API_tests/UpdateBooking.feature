@@ -18,6 +18,7 @@ Feature: update Booking API
     | totalprice      | 100              |
     | depositpaid     | true             |
     | additionalneeds | Breakfast        |
+    Then validate get booking response body for "<updated>"
     Then delete the bookingid
     Then validate response code is 201
     Examples:
